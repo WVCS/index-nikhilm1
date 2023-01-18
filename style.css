@@ -1,3 +1,32 @@
+h1 { 
+  color : purple;
+  font-family: Garamond, serif;
+    font-size: 40px;
+}
 body {
+background-color : teal;
 
+}
+.navbar {
+  overflow: hidden;
+  background-color: #A4B8C4;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #BFDCBC;
+}
+img {
+   border: dashed teal 8px ;
+}
+img:hover {
+  width: 90%;
 }
