@@ -7,6 +7,10 @@ body {
 background-color : teal;
 
 }
+img {
+  width: 30%;
+  height: auto;
+}
 .navbar {
   overflow: hidden;
   background-color: #A4B8C4;
