@@ -1,6 +1,57 @@
 body {
+    display: flex;
     font-family: Arial, sans-serif;
 }
+
+#sidebar {
+    width: 30%;
+    height: 100vh;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+#content {
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadein 2s;
+    animation-fill-mode: forwards;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    #sidebar, #content {
+        width: 100%;
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 
 header {
     background-color: #333;
