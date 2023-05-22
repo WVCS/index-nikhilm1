@@ -125,7 +125,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #BE95C4;
+  background-color: #80DEEA;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -137,7 +137,7 @@ body{
 }
 
 .container .btn:hover {
-  background-color: #9F86C0;
+  background-color: #80DEEA;
 }
 
 /* Bottom left text */
@@ -146,6 +146,6 @@ body{
   bottom: 8px;
   left: 16px;
   color: black;
-  background-color: #BE95C4;
+  background-color: #80DEEA;
   font-family: Papyrus;
 
