@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Harry Potter Land</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Harry Potter Land</h1>
+    </header>
+    <nav>
+        <button class="nav-button" onclick="loadContent('attractions.html')">Attractions</button>
+        <button class="nav-button" onclick="loadContent('location-hours.html')">Location & Hours</button>
+        <button class="nav-button" onclick="loadContent('ticket-info.html')">Ticket Info</button>
+        <button class="nav-button" onclick="loadContent('items.html')">Items Available</button>
+        <button class="nav-button" onclick="loadContent('faq.html')">FAQ</button>
+    </nav>
+    <main>
+        <div id="sidebar">
+            <!-- Sidebar content here -->
+        </div>
+        <div id="content">
+            <!-- Content will be loaded here dynamically using JavaScript -->
+        </div>
+    </main>
+    <footer>
+        <p>Created for a school project. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
