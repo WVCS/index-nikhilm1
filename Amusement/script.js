@@ -12,8 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         images.forEach(animateImage);
     });
-
-    loadContent('attractions.html');
 });
 
 function loadContent(page) {
@@ -23,3 +21,6 @@ function loadContent(page) {
             document.getElementById('content').innerHTML = data;
         });
 }
+
+// Load default content
+loadContent('home.html');
